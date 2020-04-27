@@ -32,8 +32,8 @@ sifre = driver.find_element_by_name("password")
 
 #time.sleep(2)
 
-#email.send_keys(rasgeleposta)
-email.send_keys("whaff356856@gmail.com")
+email.send_keys(rasgeleposta)
+
 
 rastgelead = rasgelead
 satgelesoyad = rasgelesoyad

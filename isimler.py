@@ -1,4 +1,5 @@
-import random
+from random import randint
+
 
 adlar = ["enes" , "hasan" , "hüseyin" , "mete", "Mehmet","Mustafa",
 "Ahmet","Ali","Hüseyin","Hasan","İbrahim","İsmail","Osman","Yusuf","Murat",
@@ -7,7 +8,7 @@ adlar = ["enes" , "hasan" , "hüseyin" , "mete", "Mehmet","Mustafa",
 "Meryem","Şerife","Sultan","Zehra","Hanife","Merve",
 "Havva","Zeliha","Fadime","Esra","Özlem","Hacer","Yasemin","Hülya"]
 
-rasgelead = adlar[random.randint(0,44)]
+rasgelead = adlar[randint(0,44)]
 
 soyadlar = ["YILMAZ","KAYA","DEMİR","ÇELİK","ŞAHİN","YILDIZ","YILDIRIM","ÖZTÜRK",
 "AYDIN","ÖZDEMİR","ARSLAN","DOĞAN","KILIÇ","ASLAN","ÇETİN",
@@ -16,6 +17,7 @@ soyadlar = ["YILMAZ","KAYA","DEMİR","ÇELİK","ŞAHİN","YILDIZ","YILDIRIM","Ö
 "BULUT","KESKİN","ÜNAL","TURAN","GÜL","ÖZER","IŞIK","KAPLAN",
 "AVCI","SARI","TEKİN""TAŞ","KÖSE","YÜKSEL","ATEŞ","AKSOY"]
 
-rasgelesoyad = soyadlar[random.randint(0,49)]
+rasgelesoyad = soyadlar[randint(0,48)]
 
 
+rasgele_ad_soyad = rasgelead + " " + rasgelesoyad
